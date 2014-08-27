@@ -66,10 +66,17 @@ namespace PACG
             }
         }
 
+        private SerialType _Serial;
         public SerialType Serial
         {
-            get;
-            set;
+            get
+            {
+                return _Serial;
+            }
+            set
+            {
+                _Serial = value;
+            }
         }
 
         public ProductType Product
