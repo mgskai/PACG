@@ -46,17 +46,10 @@ namespace PACG
             set;
         }
 
-        private CardType _Type;
         public CardType Type
         {
-            get
-            {
-                return _Type;
-            }
-            set
-            {
-                _Type = value;
-            }
+            get;
+            set;
         }
 
         public SerialType Serial
