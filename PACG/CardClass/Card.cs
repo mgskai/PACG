@@ -40,10 +40,17 @@ namespace PACG
 
     public abstract class Card
     {
+        private string _Name;
         public string Name
         {
-            get;
-            set;
+            get
+            {
+                return _Name;
+            }
+            set
+            {
+                _Name = value;
+            }
         }
 
         public CardType Type
